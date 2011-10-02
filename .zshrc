@@ -17,4 +17,4 @@ PROMPT='%{$(pwd|([[ $EUID == 0 ]] && GREP_COLORS="mt=01;31" grep --color=always 
 
 # ROS
 source /opt/ros/electric/setup.zsh
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/Desktop/MRSLAM
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/Desktop/MRSLAM:~/Desktop/BodyScanner/ros_modules
