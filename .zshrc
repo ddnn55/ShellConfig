@@ -20,4 +20,4 @@ bindkey ^f  history-incremental-search-backward
 
 # ROS
 source /opt/ros/electric/setup.zsh
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/Desktop/MRSLAM:~/Desktop/BodyScanner/ros_modules
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/Desktop/MRSLAM
