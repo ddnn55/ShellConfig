@@ -18,6 +18,9 @@ PROMPT='%{$(pwd|([[ $EUID == 0 ]] && GREP_COLORS="mt=01;31" grep --color=always 
 
 bindkey ^f  history-incremental-search-backward
 
+# mvim
+export PATH=$PATH:/opt/local/bin
+
 # ROS
 [ -f /opt/ros/electric ] && source /opt/ros/electric/setup.zsh
 [ -f /opt/ros/electric ] && export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/Desktop/MRSLAM
