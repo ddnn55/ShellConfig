@@ -19,7 +19,6 @@ PROMPT='%{$(pwd|([[ $EUID == 0 ]] && GREP_COLORS="mt=01;31" grep --color=always 
 bindkey ^f  history-incremental-search-backward
 
 # mvim
-alias mvim=/Applications/MacVim.app/Contents/MacOS/MacVim
 
 # ROS
 [ -f /opt/ros/electric ] && source /opt/ros/electric/setup.zsh
