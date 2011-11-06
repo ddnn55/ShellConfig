@@ -18,7 +18,9 @@ PROMPT='%{$(pwd|([[ $EUID == 0 ]] && GREP_COLORS="mt=01;31" grep --color=always 
 
 bindkey ^f  history-incremental-search-backward
 
-# mvim
+# inkscape
+#TODO if Mac
+alias inkscape=/Applications/Inkscape.app/Contents/MacOS/Inkscape
 
 # ROS
 [ -f /opt/ros/electric ] && source /opt/ros/electric/setup.zsh
