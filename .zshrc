@@ -18,10 +18,7 @@ PROMPT='%{$(pwd|([[ $EUID == 0 ]] && GREP_COLORS="mt=01;31" grep --color=always 
 
 bindkey ^f  history-incremental-search-backward
 
-# inkscape
-#TODO if Mac
-alias inkscape=/Applications/Inkscape.app/Contents/MacOS/Inkscape
-
-# ROS
-[ -f /opt/ros/electric ] && source /opt/ros/electric/setup.zsh
-[ -f /opt/ros/electric ] && export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/Desktop/MRSLAM
+# git completion painfully slow
+__git_files () { 
+    _wanted files expl 'local files' _files 
+}
