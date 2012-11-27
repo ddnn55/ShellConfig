@@ -5,6 +5,7 @@ filetype on
 set shiftwidth=3
 set nowrap!
 set autoindent
+set incsearch
 
 au BufNewFile,BufRead *.pde set filetype=java
 
