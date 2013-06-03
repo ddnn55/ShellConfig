@@ -1,3 +1,5 @@
 [user]
 	name = David Stolarsky
 	email = david.stolarsky@gmail.com
+[alias]
+	unadd = reset HEAD
