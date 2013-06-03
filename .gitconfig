@@ -3,3 +3,5 @@
 	email = david.stolarsky@gmail.com
 [alias]
 	unadd = reset HEAD
+[credential]
+	helper = osxkeychain
