@@ -7,6 +7,8 @@ set nowrap!
 set autoindent
 set incsearch
 
+autocmd BufEnter * :syntax sync fromstart
+
 au BufNewFile,BufRead *.pde set filetype=java
 
 if has("gui_running")
