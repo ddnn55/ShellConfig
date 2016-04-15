@@ -1,0 +1,10 @@
+{
+	"font_size": 17,
+	"ignored_packages":
+	[
+		"SideBarEnhancements",
+		"Vintage"
+	],
+	"theme": "Soda Dark 3.sublime-theme",
+	"word_wrap": "false"
+}
