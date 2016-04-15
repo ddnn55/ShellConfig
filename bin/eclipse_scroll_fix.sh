@@ -1,0 +1,2 @@
+#!/bin/bash
+UBUNTU_MENUPROXY=0 LIBOVERLAY_SCROLLBAR=0 eclipse
